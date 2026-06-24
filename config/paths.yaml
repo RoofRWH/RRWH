@@ -1,0 +1,17 @@
+data:
+  chirps: "data/chirps"
+  ghs_pop: "data/ghs_pop.tif"
+  building_footprint: "data/building_footprint.tif"
+  admin_boundaries: "data/aoi.shp"
+  imd:
+    root: "data/imd"
+    file_pattern: "IMD_daily_0.25deg_*.nc"
+    grid_crs: "EPSG:4326"
+    resolution: 0.25
+
+output:
+  root: "output"
+  distributions: "output/distributions"
+  maps: "output/maps"
+  tables: "output/tables"
+  logs: "output/logs"

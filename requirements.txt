@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+xarray
+geopandas
+shapely
+rasterio
+rioxarray
+pyyaml
+matplotlib
+seaborn
+joblib
+fiona
+pyproj
